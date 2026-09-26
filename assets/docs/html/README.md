@@ -9,8 +9,8 @@
 | `<!DOCTYPE html>` | Define o tipo de documento HTML5.                           | —                                         | `<!DOCTYPE html>`                                            |
 | `<html>`          | Elemento raiz do documento HTML.                            | `lang`, `dir`.                            | `<html lang="pt-br">`                                        |
 | `<head>`          | Contém metadados, links, scripts e título.                  | —                                         | `<head> ... </head>`                                         |
-| `<meta>`          | Fornece metadados (charset, descrição, autor, etc.).        | `charset`, `name`, `content`, `viewport`. | `<meta name="description" content="Portfólio de Rafael Queiróz">` |
-| `<title>`         | Define o título da página exibido no navegador.             | —                                         | `<title>Portfólio do Rafael</title>`                         |
+| `<meta>`          | Fornece metadados (charset, descrição, autor, etc.).        | `charset`, `name`, `content`, `viewport`. | `<meta name="description" content="Portfólio de Edson Silva">` |
+| `<title>`         | Define o título da página exibido no navegador.             | —                                         | `<title>Portfólio do Edson</title>`                         |
 | `<link>`          | Liga o documento a recursos externos (CSS, ícones, fontes). | `rel`, `href`, `type`, `crossorigin`.     | `<link rel="stylesheet" href="./assets/css/styles.css">`     |
 | `<script>`        | Vincula ou contém código JavaScript.                        | `src`, `defer`, `type`.                   | `<script src="./assets/js/scripts.js"></script>`             |
 
@@ -26,7 +26,7 @@
 | `<section>` | Agrupa blocos de conteúdo relacionados.               | `id`, `class`.       | `<section id="hero" class="hero_container">...</section>` |
 | `<article>` | Bloco de conteúdo independente (texto, imagem, etc.). | `class`, `id`.       | `<article class="hero_content">...</article>`             |
 | `<nav>`     | Define uma área de navegação com links.               | —                    | `<nav>...</nav>`                                          |
-| `<footer>`  | Rodapé da página.                                     | —                    | `<footer>Feito com ❤️ por Rafael</footer>`                 |
+| `<footer>`  | Rodapé da página.                                     | —                    | `<footer>Feito com ❤️ por Edson</footer>`                 |
 | `<div>`     | Estruturação e agrupamento de layout                  | `class`, `id`.       | `<div class="buttons-container">...</div>`                |
 
 <br />
@@ -81,7 +81,7 @@
 | `<meta name="viewport">`    | Controla escala e layout em dispositivos móveis.         | `content="width=device-width, initial-scale=1.0"`. | `<meta name="viewport" content="width=device-width, initial-scale=1.0">` |
 | `<meta name="theme-color">` | Define cor da barra de navegação no mobile.              | `content="#6366f1"`.                               | `<meta name="theme-color" content="#6366f1">`                |
 | `<meta name="robots">`      | Indica instruções de indexação para mecanismos de busca. | `content="index, follow"`.                         | `<meta name="robots" content="index, follow">`               |
-| `<meta name="author">`      | Define o autor da página.                                | `content="Rafael Queiróz"`.                        | `<meta name="author" content="Rafael Queiróz">`              |
+| `<meta name="author">`      | Define o autor da página.                                | `content="Edson Silva"`.                        | `<meta name="author" content="Edson Silva">`              |
 
 <br />
 

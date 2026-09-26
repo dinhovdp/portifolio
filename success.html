@@ -20,10 +20,10 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<meta name="author" content="Rafael Queiróz" />
+		<meta name="author" content="Edson Silva" />
 		<meta
 			name="description"
-			content="Portfólio Pessoal do Rafael Queiróz, 
+			content="Portfólio Pessoal do Edson Silva, 
                 desenvolvedor Full Stack especializado em criar experiências 
                 digitais incríveis. Conheça meus projetos e entre em contato."
 		/>
@@ -38,16 +38,20 @@
 		<!-- CSS principal da página -->
 		<link rel="stylesheet" href="./assets/css/styles.css" />
 
-		<title>Portfólio do Rafael</title>
+		<title>Portfólio do Edson</title>
 	</head>
 
 	<body>
 		<!-- Cabeçalho da Página (header) -->
-		<header class="menu-container">
+		<header>
 			<div class="menu-content">
 				<a href="index.html" id="titulo">Portfólio</a>
 
 				<nav>
+					<input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+					<label for="menu-toggle" class="menu-toggle-label" aria-label="Abrir menu">
+						<span></span><span></span><span></span>
+					</label>
 					<ul class="menu-list">
 						<li>
 							<a href="index.html#hero"
@@ -65,7 +69,7 @@
 							>
 						</li>
 						<li>
-							<a href="index.html#contact"
+							<a href="index.html#contacts"
 								>Contato</a
 							>
 						</li>
@@ -102,6 +106,9 @@
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>Desenvolvido por Rafael Queiróz - 2026</footer>
+		<footer>Desenvolvido por Edson Silva - 2026</footer>
+
+		<!-- Script do Menu Hambúrguer -->
+		<script src="./assets/js/menu.js"></script>
 	</body>
 </html>

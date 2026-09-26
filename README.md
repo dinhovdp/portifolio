@@ -40,7 +40,9 @@ O projeto consome dados dinâmicos da **API do GitHub**, permitindo que informa�
 
 - Página dedicada de **confirmação de envio** do formulário
 
-- Navegação fluida com menu fixo e rolagem suave
+- Navegação fluida com menu fixo, rolagem suave e **menu hambúrguer (dropdown) em telas mobile**
+
+- Botão de **download/visualização do currículo** em PDF
 
 - Interface intuitiva e organizada, focada na experiência do usuário
  
@@ -68,7 +70,11 @@ O projeto consome dados dinâmicos da **API do GitHub**, permitindo que informa�
 
 │   ├── 📁js/
 
-│   │   └── scripts.js    # Integração com GitHub, carrossel e validações
+│   │   ├── script.js     # Integração com GitHub, carrossel e validações
+
+│   │   └── menu.js       # Controle do menu hambúrguer (mobile)
+
+│   ├── 📁cv/             # Currículo em PDF
 
 │   ├── 📁img/            # Imagens e ilustrações
 
@@ -114,7 +120,7 @@ Para executar o projeto em ambiente local, siga os passos abaixo.
  
    ```bash
 
-   git clone https://github.com/dinhovdp/portfolio_tj85.git
+   git clone https://github.com/dinhovdp/portifolio.git
 
    ```
  
@@ -122,7 +128,7 @@ Para executar o projeto em ambiente local, siga os passos abaixo.
  
    ```bash
 
-   cd portfolio_tjs13
+   cd portifolio
 
    ```
  
@@ -146,15 +152,13 @@ O site será aberto no navegador e todas as alterações poderão ser visualizad
 1. [Estrutura do HTML](./assets/docs/html/README.md)
 
 2. [Estilização com CSS](./assets/docs/css/README.md)
-
-3. [Script JS](./assets/docs/js/README.md)
  
 ---
  
 ## Diferenciais do Projeto
  
  
-- Layout **responsivo**
+- Layout **responsivo**, com menu hambúrguer dedicado para mobile
 
 - Paleta de cores harmônica com tons de roxo e cinza
 
@@ -170,7 +174,7 @@ O site será aberto no navegador e todas as alterações poderão ser visualizad
  
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
  
-🔗 https://dinhovdp.github.io/portfolio_tj85
+🔗 https://dinhovdp.github.io/portifolio
  
 ------
  

@@ -31,28 +31,43 @@ async function getAboutGithub(){
               alt="${perfil.name}"
             >
           </figure>
+<!-- Conteúdo da Seção About -->
+<article class="about-content">
+  <h2>Sobre mim</h2>
 
-          <!-- Conteúdo da Seção About -->
-          <article class="about-content">
-            <h2>Sobre mim</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur 
-              adipisicing elit. Hic minima quidem perferendis 
-              ut eius similique autem consectetur quisquam. 
-              Ducimus at molestias illo obcaecati animi pariatur 
-              voluptate eligendi fugit cupiditate nemo?
-            </p>
-            <p>
-              Mussum Ipsum, cacilds vidis litro abertis. 
-              Nec orci ornare consequat. Praesent lacinia 
-              ultrices consectetur. Sed non ipsum felis. 
-              Admodum accumsan disputationi eu sit. 
-              Vide electram sadipscing et per. 
-              Em pé sem cair, deitado sem dormir, 
-              sentado sem cochilar e fazendo pose. 
-              Praesent malesuada urna nisi, 
-              quis volutpat erat hendrerit non. 
-              Nam vulputate dapibus.
+  <p>
+    Minha relação com a tecnologia começou muito antes de eu pensar em
+    seguir uma carreira na área. Desde mais novo, sempre tive curiosidade
+    em entender como as coisas funcionavam. Computadores, principalmente,
+    despertavam minha atenção: eu gostava de montar, desmontar, instalar,
+    configurar e tentar resolver problemas por conta própria. Com o tempo,
+    amigos e familiares começaram a recorrer a mim quando tinham algum
+    problema com seus computadores — era comum ouvir: “Chama o Edson,
+    ele sabe arrumar”.
+  </p>
+
+  <p>
+    Hoje, essa curiosidade se transformou em uma nova direção profissional.
+    Sou formado em Análise e Desenvolvimento de Sistemas e atualmente estudo
+    Ciência de Dados, enquanto continuo desenvolvendo minhas habilidades em
+    programação. Tenho me dedicado principalmente ao desenvolvimento Java e
+    Full Stack, trabalhando com Java, Spring Boot, APIs, bancos de dados,
+    React, JavaScript e Git em projetos práticos.
+  </p>
+
+  <p>
+    Minha experiência profissional anterior também faz parte dessa
+    trajetória. Atuar com análise de contratos, operações, suporte e
+    processos me ajudou a desenvolver atenção aos detalhes, raciocínio
+    analítico e uma visão voltada para encontrar soluções. Agora, estou
+    unindo essa experiência com meus conhecimentos em tecnologia para
+    construir uma carreira na área que sempre despertou minha curiosidade:
+    transformar problemas em soluções através da tecnologia.
+  </p>
+
+  <p>
+    Quer conhecer mais sobre meu trabalho? Visite meu GitHub ou baixe uma
+    versão do meu currículo.
             </p>
 
             <!-- Links (GitHub + Curriculo) e Dados do GitHub-->
